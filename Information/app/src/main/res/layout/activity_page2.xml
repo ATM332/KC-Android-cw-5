@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".page2">
+
+    <TextView
+        android:id="@+id/app2"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"
+        android:text="Information" />
+
+    <ImageView
+        android:id="@+id/uploadph2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/custmorId"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:backgroundTint="#00EAEFEF"
+        android:text="بيانات العميل: "
+        android:textColor="#15292C"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D4E6E3"
+        android:ems="10"
+        android:hint="الاسم"
+        android:inputType="textPersonName"
+        android:textColorHint="#588287"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-70dp"
+        android:backgroundTint="#00FAFAFA"
+        android:text="الاسم"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/age2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D5E1E0"
+        android:ems="10"
+        android:hint="العمر"
+        android:inputType="textPersonName"
+        android:textColorHint="#588287"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="العمر"
+        android:textSize="40dp" />
+
+
+</LinearLayout>
